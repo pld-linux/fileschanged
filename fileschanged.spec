@@ -6,7 +6,7 @@ Release:	0.1
 Epoch:		0
 License:	GPL
 Group:		Applications/File
-Source0:	http://cesnet.dl.sourceforge.net/sourceforge/fileschanged/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	78f652c17190017080eb985804d62013
 URL:		http://fileschanged.sf.net
 BuildRequires:	autoconf
