@@ -24,7 +24,7 @@ when monitored files become altered.
 %description -l pl
 Fileschanged to klient FAM (monitora zmian plików). Pozwala
 monitorowaæ podany mu zestaw plików i informowaæ, je¶li który¶ z nich
-siê zmieni. Mo¿esz u¿yæ fileschanged w skrytpach pow³oki, by zrobiæ
+siê zmieni. Mo¿na u¿ywaæ fileschanged w skryptach pow³oki, by zrobiæ
 co¶ gdy zmieni± siê okre¶lone pliki.
 
 %prep
@@ -55,4 +55,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
-%{_infodir}/*
+%{_infodir}/*.info*
