@@ -8,7 +8,7 @@ License:	GPL
 Group:		Applications/File
 Source0:	http://dl.sourceforge.net/fileschanged/%{name}-%{version}.tar.gz
 # Source0-md5:	d7f6b4030d2d46ba94da781bef61095a
-URL:		http://fileschanged.sourceforge.net
+URL:		http://fileschanged.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	fam-devel
