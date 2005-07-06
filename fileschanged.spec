@@ -1,13 +1,13 @@
 Summary:	A FAM (File Alteration Monitor) client
 Summary(pl):	Klient FAM (monitora zmian plików)
 Name:		fileschanged
-Version:	0.6.1
+Version:	0.6.2
 Release:	1
 Epoch:		0
 License:	GPL
 Group:		Applications/File
 Source0:	http://dl.sourceforge.net/fileschanged/%{name}-%{version}.tar.gz
-# Source0-md5:	d7f6b4030d2d46ba94da781bef61095a
+# Source0-md5:	3c3938225d6ab9fa1a6d5f78f02418c1
 URL:		http://fileschanged.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -48,10 +48,12 @@ rm -rf $RPM_BUILD_ROOT
 # only useless files (docs and fileschanged.lsm)
 rm -rf $RPM_BUILD_ROOT%{_datadir}/%{name}
 
+%find_lang %{name}
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%files
+%files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README TODO
 %attr(755,root,root) %{_bindir}/*
