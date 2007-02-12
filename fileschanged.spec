@@ -1,5 +1,5 @@
 Summary:	A FAM (File Alteration Monitor) client
-Summary(pl):	Klient FAM (monitora zmian plików)
+Summary(pl.UTF-8):   Klient FAM (monitora zmian plikÃ³w)
 Name:		fileschanged
 Version:	0.6.4
 Release:	1
@@ -23,11 +23,11 @@ From the command-line it monitors sets of files and shows you when
 they change. You can use fileschanged in shell scripts to take action
 when monitored files become altered.
 
-%description -l pl
-Fileschanged to klient FAM (monitora zmian plików). Pozwala
-monitorowaæ podany mu zestaw plików i informowaæ, je¶li który¶ z nich
-siê zmieni. Mo¿na u¿ywaæ fileschanged w skryptach pow³oki, by zrobiæ
-co¶ gdy zmieni± siê okre¶lone pliki.
+%description -l pl.UTF-8
+Fileschanged to klient FAM (monitora zmian plikÃ³w). Pozwala
+monitorowaÄ‡ podany mu zestaw plikÃ³w i informowaÄ‡, jeÅ›li ktÃ³ryÅ› z nich
+siÄ™ zmieni. MoÅ¼na uÅ¼ywaÄ‡ fileschanged w skryptach powÅ‚oki, by zrobiÄ‡
+coÅ› gdy zmieniÄ… siÄ™ okreÅ›lone pliki.
 
 %prep
 %setup -q
