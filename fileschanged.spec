@@ -1,5 +1,5 @@
 Summary:	A FAM (File Alteration Monitor) client
-Summary(pl.UTF-8):   Klient FAM (monitora zmian plików)
+Summary(pl.UTF-8):	Klient FAM (monitora zmian plików)
 Name:		fileschanged
 Version:	0.6.4
 Release:	1
