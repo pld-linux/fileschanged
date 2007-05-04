@@ -1,13 +1,13 @@
 Summary:	A FAM (File Alteration Monitor) client
 Summary(pl.UTF-8):	Klient FAM (monitora zmian plików)
 Name:		fileschanged
-Version:	0.6.4
+Version:	0.6.5
 Release:	1
 Epoch:		0
 License:	GPL
 Group:		Applications/File
 Source0:	http://dl.sourceforge.net/fileschanged/%{name}-%{version}.tar.gz
-# Source0-md5:	c8e6d9829a2ecb2363835787f578415d
+# Source0-md5:	49ae8bed507c000f9c7fa430b5b71205
 URL:		http://fileschanged.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -33,7 +33,7 @@ coś gdy zmienią się określone pliki.
 %setup -q
 
 %build
-%{__aclocal}
+%{__aclocal} -I m4
 %{__autoconf}
 %{__autoheader}
 %{__automake}
