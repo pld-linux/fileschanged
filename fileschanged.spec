@@ -12,7 +12,7 @@ URL:		http://fileschanged.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	fam-devel
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	help2man
 Requires:	fam
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
